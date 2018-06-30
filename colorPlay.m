@@ -1,7 +1,7 @@
 %%% change rgb to hsc
 ix = imread('rice.png');
 i = imresize(ix, [500,500]);
-
+%%ok
 figure, imshow(i);
 i1 = imopen(i, strel('disk', 9));
 i3 = i - i1;
